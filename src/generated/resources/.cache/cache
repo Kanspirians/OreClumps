@@ -57,6 +57,17 @@ cfed0411787bd3c7714b7a26cd82c76ae9dab6dc data/forge/tags/items/ingots/osmium.jso
 29ddbeb5b4a116b936f101492ab7eb5e8295bfbd data/forge/tags/items/ingots/tin.json
 d6c0bdda8b4becddd089f52a3da64488b5d8752a data/forge/tags/items/ingots/uranium.json
 06ec5d57deebae59f2667aa7921b71e345ff15b6 data/forge/tags/items/ingots/zinc.json
+5738b082a4b72f3438646fe3714b73a86565eb96 data/forge/tags/items/ores.json
+01c80689fc371779accd5d55bdd43b8a8af04e50 data/forge/tags/items/ores/copper.json
+ff455ac417f4f6004b4cee240a622470d22b004d data/forge/tags/items/ores/gold.json
+c6900fae290a66bd99d8b7a1c77105e8eff09856 data/forge/tags/items/ores/iron.json
+697b263bfb949da8d715bd8527218fec7c0e1805 data/forge/tags/items/ores/lead.json
+2e0ccd99c8d736ec6d6cee492a73cc12d732500d data/forge/tags/items/ores/nickel.json
+06c4da1b800937c23b172ddd8e0f00981f37bcba data/forge/tags/items/ores/osmium.json
+563b568750b69ffa7e85e53b288daa824fa05c02 data/forge/tags/items/ores/silver.json
+94754528ce8c49cf8f81c3439f450b9487ddcb8e data/forge/tags/items/ores/tin.json
+19c05b24d4a12dfddf1d7d01e134ebcec21769b6 data/forge/tags/items/ores/uranium.json
+d66cb99a4f89123473e573d262d6fac9078b466b data/forge/tags/items/ores/zinc.json
 dbf49cd8d782226c245a80c36552301c9317f9e8 data/minecraft/advancements/recipes/building_blocks/raw_copper_block.json
 d60d654b236d2c109055a1ae26d8d9156af0480e data/minecraft/advancements/recipes/building_blocks/raw_gold_block.json
 17e56cc68b391ae95ecd814f58d61117a7e5f755 data/minecraft/advancements/recipes/building_blocks/raw_iron_block.json
