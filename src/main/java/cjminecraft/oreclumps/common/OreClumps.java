@@ -3,6 +3,7 @@ package cjminecraft.oreclumps.common;
 import cjminecraft.oreclumps.common.config.OCConfig;
 import cjminecraft.oreclumps.common.init.OCBlocks;
 import cjminecraft.oreclumps.common.init.OCItems;
+import cjminecraft.oreclumps.common.init.OCLootModifiers;
 import cjminecraft.oreclumps.data.OCBlockStateProvider;
 import cjminecraft.oreclumps.data.OCItemModelProvider;
 import cjminecraft.oreclumps.data.OCLanguageProvider;
@@ -28,7 +29,7 @@ public class OreClumps {
     public static final Logger LOGGER = LogManager.getFormatterLogger(MODID);
 
     public OreClumps() {
-        ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, OCConfig.SERVER_SPEC);
+//        ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, OCConfig.SERVER_SPEC);
 
         IEventBus mod = FMLJavaModLoadingContext.get().getModEventBus();
 
@@ -38,6 +39,7 @@ public class OreClumps {
         OCItems.ITEMS.register(mod);
         OCBlocks.BLOCKS.register(mod);
         OCBlocks.ITEMS.register(mod);
+        OCLootModifiers.LOOT_MODIFIER_SERIALIZERS.register(mod);
     }
 
     private void setup(final FMLCommonSetupEvent event) {

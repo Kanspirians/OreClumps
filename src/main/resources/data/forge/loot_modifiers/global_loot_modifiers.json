@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "entries": [
+    "oreclumps:raw_iron",
+    "oreclumps:raw_gold",
+    "oreclumps:raw_copper",
+    "oreclumps:raw_lead",
+    "oreclumps:raw_nickel",
+    "oreclumps:raw_osmium",
+    "oreclumps:raw_silver",
+    "oreclumps:raw_tin",
+    "oreclumps:raw_uranium"
+  ]
+}
