@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "silver_ingot",
+  "ingredient": {
+    "item": "oreclumps:raw_silver"
+  },
+  "result": "oreclumps:silver_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "osmium_ingot",
+  "ingredient": {
+    "item": "oreclumps:raw_osmium"
+  },
+  "result": "oreclumps:osmium_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}
