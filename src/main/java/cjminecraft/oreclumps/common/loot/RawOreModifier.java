@@ -42,6 +42,16 @@ public class RawOreModifier extends LootModifier {
         this.replacement = replacement;
     }
 
+    public RawOreModifier(ILootCondition[] conditionsIn, ILootFunction[] functions, ITag<Block> toReplace, Item replacement) {
+        super(conditionsIn);
+        this.functions = functions;
+        this.toReplace = toReplace;
+        this.toReplaceTagString = null;
+        this.blockToReplace = null;
+        this.replacement = replacement;
+    }
+
+
     public RawOreModifier(ILootCondition[] conditionsIn, ILootFunction[] functions, Block toReplace, Item replacement) {
         super(conditionsIn);
         this.functions = functions;
@@ -94,8 +104,10 @@ public class RawOreModifier extends LootModifier {
             JsonObject json = makeConditions(instance.conditions);
             if (!ArrayUtils.isEmpty(instance.functions))
                 json.add("functions", GSON_INSTANCE.toJsonTree(instance.functions));
-            if (instance.getTag() != null)
-                json.addProperty("replace", "#" + BlockTags.getAllTags().getIdOrThrow(instance.getTag()));
+            if (instance.toReplace != null)
+                json.addProperty("replace", "#" + BlockTags.getAllTags().getIdOrThrow(instance.toReplace));
+            else if (instance.toReplaceTagString != null)
+                json.addProperty("replace", "#" + instance.toReplaceTagString);
             else if (instance.blockToReplace != null)
                 json.addProperty("replace", Objects.requireNonNull(instance.blockToReplace.getRegistryName()).toString());
 

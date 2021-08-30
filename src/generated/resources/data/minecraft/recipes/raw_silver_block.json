@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "oreclumps:raw_silver"
+    }
+  },
+  "result": {
+    "item": "oreclumps:raw_silver_block"
+  }
+}

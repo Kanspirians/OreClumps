@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "oreclumps:raw_osmium"
+    }
+  },
+  "result": {
+    "item": "oreclumps:raw_osmium_block"
+  }
+}
