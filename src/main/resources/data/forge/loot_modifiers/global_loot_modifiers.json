@@ -9,6 +9,7 @@
     "oreclumps:raw_osmium",
     "oreclumps:raw_silver",
     "oreclumps:raw_tin",
-    "oreclumps:raw_uranium"
+    "oreclumps:raw_uranium",
+    "oreclumps:raw_zinc"
   ]
 }
