@@ -1,6 +1,5 @@
 {
   "type": "minecraft:blasting",
-  "group": "osmium_ingot",
   "ingredient": {
     "item": "oreclumps:raw_osmium"
   },

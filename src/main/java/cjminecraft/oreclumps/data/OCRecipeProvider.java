@@ -32,23 +32,23 @@ public class OCRecipeProvider extends RecipeProvider {
     }
 
     private static void rawOreRecipes(Consumer<IFinishedRecipe> consumer, RegistryObject<Item> raw, RegistryObject<Item> rawBlock, Item ingot, float xp, String name) {
-        rawOre(consumer, raw, rawBlock, name);
+        rawOre(consumer, raw, rawBlock);
         rawOreBlock(consumer, raw, rawBlock, name);
         ingotFromRaw(consumer, raw, ingot, xp, name);
     }
 
     private static void rawOreRecipes(Consumer<IFinishedRecipe> consumer, RegistryObject<Item> raw, RegistryObject<Item> rawBlock, RegistryObject<Item> ingot, String name) {
-        rawOre(consumer, raw, rawBlock, name);
+        rawOre(consumer, raw, rawBlock);
         rawOreBlock(consumer, raw, rawBlock, name);
         ingotFromRaw(consumer, raw, ingot, name);
     }
 
-    private static void rawOre(Consumer<IFinishedRecipe> consumer, RegistryObject<Item> raw, RegistryObject<Item> rawBlock, String name) {
-        ShapelessRecipeBuilder.shapeless(raw::get, 9).requires(rawBlock::get).unlockedBy("has_raw_ore_block", has(rawBlock::get)).save(consumer, "raw_" + name);
+    private static void rawOre(Consumer<IFinishedRecipe> consumer, RegistryObject<Item> raw, RegistryObject<Item> rawBlock) {
+        ShapelessRecipeBuilder.shapeless(raw::get, 9).requires(rawBlock::get).unlockedBy("has_raw_ore_block", has(rawBlock::get)).save(consumer);
     }
 
     private static void rawOreBlock(Consumer<IFinishedRecipe> consumer, RegistryObject<Item> raw, RegistryObject<Item> rawBlock, String name) {
-        ShapedRecipeBuilder.shaped(rawBlock::get).define('#', raw::get).pattern("###").pattern("###").pattern("###").unlockedBy("has_raw_ore", has(raw::get)).save(consumer, "raw_" + name + "_block");
+        ShapedRecipeBuilder.shaped(rawBlock::get).define('#', raw::get).pattern("###").pattern("###").pattern("###").unlockedBy("has_raw_ore", has(raw::get)).save(consumer);
     }
 
     private static void ingotFromRaw(Consumer<IFinishedRecipe> consumer, RegistryObject<Item> raw, RegistryObject<Item> ingot, String name) {
@@ -56,7 +56,7 @@ public class OCRecipeProvider extends RecipeProvider {
     }
 
     private static void ingotFromRaw(Consumer<IFinishedRecipe> consumer, RegistryObject<Item> raw, IItemProvider ingot, float xp, String name) {
-        CookingRecipeBuilder.smelting(Ingredient.of(raw.get().getDefaultInstance()), ingot, xp, 200).unlockedBy("has_raw_ore", has(raw::get)).save(consumer, name + "_ingot_from_smelting_raw_" + name);
-        CookingRecipeBuilder.blasting(Ingredient.of(raw.get().getDefaultInstance()), ingot, xp, 100).unlockedBy("has_raw_ore", has(raw::get)).save(consumer, name + "_ingot_from_blasting_raw_" + name);
+        CookingRecipeBuilder.smelting(Ingredient.of(raw.get().getDefaultInstance()), ingot, xp, 200).unlockedBy("has_raw_ore", has(raw::get)).save(consumer, "oreclumps:" + name + "_ingot_from_smelting_raw_" + name);
+        CookingRecipeBuilder.blasting(Ingredient.of(raw.get().getDefaultInstance()), ingot, xp, 100).unlockedBy("has_raw_ore", has(raw::get)).save(consumer, "oreclumps:" + name + "_ingot_from_blasting_raw_" + name);
     }
 }

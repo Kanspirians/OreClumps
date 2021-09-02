@@ -1,6 +1,5 @@
 {
   "type": "minecraft:blasting",
-  "group": "nickel_ingot",
   "ingredient": {
     "item": "oreclumps:raw_nickel"
   },

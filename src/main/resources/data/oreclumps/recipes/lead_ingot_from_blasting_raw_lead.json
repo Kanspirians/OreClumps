@@ -1,6 +1,5 @@
 {
   "type": "minecraft:blasting",
-  "group": "lead_ingot",
   "ingredient": {
     "item": "oreclumps:raw_lead"
   },
