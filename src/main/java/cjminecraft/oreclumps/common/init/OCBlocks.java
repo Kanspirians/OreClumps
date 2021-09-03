@@ -29,6 +29,13 @@ public class OCBlocks {
     public static final RegistryObject<Block> RAW_URANIUM_BLOCK = BLOCKS.register("raw_uranium_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_LIGHT_GREEN).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
     public static final RegistryObject<Block> RAW_OSMIUM_BLOCK = BLOCKS.register("raw_osmium_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_LIGHT_GRAY).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
     public static final RegistryObject<Block> RAW_ZINC_BLOCK = BLOCKS.register("raw_zinc_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.WARPED_NYLIUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final RegistryObject<Block> RAW_ALUMINUM_BLOCK = BLOCKS.register("raw_aluminum_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.WARPED_NYLIUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final RegistryObject<Block> RAW_CHROMIUM_BLOCK = BLOCKS.register("raw_chromium_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.WARPED_NYLIUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final RegistryObject<Block> RAW_COBALT_BLOCK = BLOCKS.register("raw_cobalt_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.WARPED_NYLIUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final RegistryObject<Block> RAW_PLATINUM_BLOCK = BLOCKS.register("raw_platinum_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.WARPED_NYLIUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final RegistryObject<Block> RAW_THORIUM_BLOCK = BLOCKS.register("raw_thorium_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.WARPED_NYLIUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final RegistryObject<Block> RAW_TITANIUM_BLOCK = BLOCKS.register("raw_titanium_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.WARPED_NYLIUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final RegistryObject<Block> RAW_TUNGSTEN_BLOCK = BLOCKS.register("raw_tungsten_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.WARPED_NYLIUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
 
     public static final RegistryObject<Item> RAW_IRON_BLOCK_ITEM = ITEMS.register("raw_iron_block", () -> new BlockItem(RAW_IRON_BLOCK.get(), PROPERTIES));
     public static final RegistryObject<Item> RAW_GOLD_BLOCK_ITEM = ITEMS.register("raw_gold_block", () -> new BlockItem(RAW_GOLD_BLOCK.get(), PROPERTIES));
@@ -40,5 +47,12 @@ public class OCBlocks {
     public static final RegistryObject<Item> RAW_URANIUM_BLOCK_ITEM = ITEMS.register("raw_uranium_block", () -> new BlockItem(RAW_URANIUM_BLOCK.get(), PROPERTIES));
     public static final RegistryObject<Item> RAW_OSMIUM_BLOCK_ITEM = ITEMS.register("raw_osmium_block", () -> new BlockItem(RAW_OSMIUM_BLOCK.get(), PROPERTIES));
     public static final RegistryObject<Item> RAW_ZINC_BLOCK_ITEM = ITEMS.register("raw_zinc_block", () -> new BlockItem(RAW_ZINC_BLOCK.get(), PROPERTIES));
+    public static final RegistryObject<Item> RAW_ALUMINUM_BLOCK_ITEM = ITEMS.register("raw_aluminum_block", () -> new BlockItem(RAW_ALUMINUM_BLOCK.get(), PROPERTIES));
+    public static final RegistryObject<Item> RAW_CHROMIUM_BLOCK_ITEM = ITEMS.register("raw_chromium_block", () -> new BlockItem(RAW_CHROMIUM_BLOCK.get(), PROPERTIES));
+    public static final RegistryObject<Item> RAW_COBALT_BLOCK_ITEM = ITEMS.register("raw_cobalt_block", () -> new BlockItem(RAW_COBALT_BLOCK.get(), PROPERTIES));
+    public static final RegistryObject<Item> RAW_PLATINUM_BLOCK_ITEM = ITEMS.register("raw_platinum_block", () -> new BlockItem(RAW_PLATINUM_BLOCK.get(), PROPERTIES));
+    public static final RegistryObject<Item> RAW_THORIUM_BLOCK_ITEM = ITEMS.register("raw_thorium_block", () -> new BlockItem(RAW_THORIUM_BLOCK.get(), PROPERTIES));
+    public static final RegistryObject<Item> RAW_TITANIUM_BLOCK_ITEM = ITEMS.register("raw_titanium_block", () -> new BlockItem(RAW_TITANIUM_BLOCK.get(), PROPERTIES));
+    public static final RegistryObject<Item> RAW_TUNGSTEN_BLOCK_ITEM = ITEMS.register("raw_tungsten_block", () -> new BlockItem(RAW_TUNGSTEN_BLOCK.get(), PROPERTIES));
 
 }

@@ -23,6 +23,13 @@ public class OCBlockStateProvider extends BlockStateProvider {
         simpleBlock(OCBlocks.RAW_URANIUM_BLOCK.get());
         simpleBlock(OCBlocks.RAW_OSMIUM_BLOCK.get());
         simpleBlock(OCBlocks.RAW_ZINC_BLOCK.get());
+        simpleBlock(OCBlocks.RAW_ALUMINUM_BLOCK.get());
+        simpleBlock(OCBlocks.RAW_CHROMIUM_BLOCK.get());
+        simpleBlock(OCBlocks.RAW_COBALT_BLOCK.get());
+        simpleBlock(OCBlocks.RAW_PLATINUM_BLOCK.get());
+        simpleBlock(OCBlocks.RAW_THORIUM_BLOCK.get());
+        simpleBlock(OCBlocks.RAW_TITANIUM_BLOCK.get());
+        simpleBlock(OCBlocks.RAW_TUNGSTEN_BLOCK.get());
 
         cubeAll(OCBlocks.RAW_IRON_BLOCK.get());
         cubeAll(OCBlocks.RAW_GOLD_BLOCK.get());
@@ -34,5 +41,12 @@ public class OCBlockStateProvider extends BlockStateProvider {
         cubeAll(OCBlocks.RAW_URANIUM_BLOCK.get());
         cubeAll(OCBlocks.RAW_OSMIUM_BLOCK.get());
         cubeAll(OCBlocks.RAW_ZINC_BLOCK.get());
+        cubeAll(OCBlocks.RAW_ALUMINUM_BLOCK.get());
+        cubeAll(OCBlocks.RAW_CHROMIUM_BLOCK.get());
+        cubeAll(OCBlocks.RAW_COBALT_BLOCK.get());
+        cubeAll(OCBlocks.RAW_PLATINUM_BLOCK.get());
+        cubeAll(OCBlocks.RAW_THORIUM_BLOCK.get());
+        cubeAll(OCBlocks.RAW_TITANIUM_BLOCK.get());
+        cubeAll(OCBlocks.RAW_TUNGSTEN_BLOCK.get());
     }
 }

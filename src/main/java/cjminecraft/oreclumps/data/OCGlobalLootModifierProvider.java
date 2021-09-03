@@ -44,6 +44,13 @@ public class OCGlobalLootModifierProvider extends GlobalLootModifierProvider {
         add("raw_tin", OCLootModifiers.RAW_ORE_MODIFIER.get(), new RawOreModifier(conditions, functions, "forge:ores/tin", OCItems.RAW_TIN.get()));
         add("raw_uranium", OCLootModifiers.RAW_ORE_MODIFIER.get(), new RawOreModifier(conditions, functions, "forge:ores/uranium", OCItems.RAW_URANIUM.get()));
         add("raw_zinc", OCLootModifiers.RAW_ORE_MODIFIER.get(), new RawOreModifier(conditions, functions, "forge:ores/zinc", OCItems.RAW_ZINC.get()));
+        add("raw_aluminum", OCLootModifiers.RAW_ORE_MODIFIER.get(), new RawOreModifier(conditions, functions, "forge:ores/aluminum", OCItems.RAW_ALUMINUM.get()));
+        add("raw_chromium", OCLootModifiers.RAW_ORE_MODIFIER.get(), new RawOreModifier(conditions, functions, "forge:ores/chromium", OCItems.RAW_CHROMIUM.get()));
+        add("raw_cobalt", OCLootModifiers.RAW_ORE_MODIFIER.get(), new RawOreModifier(conditions, functions, "forge:ores/cobalt", OCItems.RAW_COBALT.get()));
+        add("raw_platinum", OCLootModifiers.RAW_ORE_MODIFIER.get(), new RawOreModifier(conditions, functions, "forge:ores/platinum", OCItems.RAW_PLATINUM.get()));
+        add("raw_thorium", OCLootModifiers.RAW_ORE_MODIFIER.get(), new RawOreModifier(conditions, functions, "forge:ores/thorium", OCItems.RAW_THORIUM.get()));
+        add("raw_titanium", OCLootModifiers.RAW_ORE_MODIFIER.get(), new RawOreModifier(conditions, functions, "forge:ores/titanium", OCItems.RAW_TITANIUM.get()));
+        add("raw_tungsten", OCLootModifiers.RAW_ORE_MODIFIER.get(), new RawOreModifier(conditions, functions, "forge:ores/tungsten", OCItems.RAW_TUNGSTEN.get()));
     }
 
 

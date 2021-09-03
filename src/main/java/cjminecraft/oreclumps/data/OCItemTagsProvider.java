@@ -27,7 +27,14 @@ public class OCItemTagsProvider extends ItemTagsProvider {
                 OCItems.TIN_INGOT.get(),
                 OCItems.OSMIUM_INGOT.get(),
                 OCItems.URANIUM_INGOT.get(),
-                OCItems.ZINC_INGOT.get()
+                OCItems.ZINC_INGOT.get(),
+                OCItems.ALUMINUM_INGOT.get(),
+                OCItems.CHROMIUM_INGOT.get(),
+                OCItems.COBALT_INGOT.get(),
+                OCItems.PLATINUM_INGOT.get(),
+                OCItems.THORIUM_INGOT.get(),
+                OCItems.TITANIUM_INGOT.get(),
+                OCItems.TUNGSTEN_INGOT.get()
         );
 
         tag(Tags.Items.ORES).add(
@@ -40,7 +47,14 @@ public class OCItemTagsProvider extends ItemTagsProvider {
                 OCItems.RAW_TIN.get(),
                 OCItems.RAW_OSMIUM.get(),
                 OCItems.RAW_URANIUM.get(),
-                OCItems.RAW_ZINC.get()
+                OCItems.RAW_ZINC.get(),
+                OCItems.RAW_ALUMINUM.get(),
+                OCItems.RAW_CHROMIUM.get(),
+                OCItems.RAW_COBALT.get(),
+                OCItems.RAW_PLATINUM.get(),
+                OCItems.RAW_THORIUM.get(),
+                OCItems.RAW_TITANIUM.get(),
+                OCItems.RAW_TUNGSTEN.get()
         );
 
         tag(Tags.Items.ORES_IRON).add(OCItems.RAW_IRON.get());
@@ -61,6 +75,20 @@ public class OCItemTagsProvider extends ItemTagsProvider {
                 .add(OCItems.RAW_URANIUM.get());
         tag(ItemTags.createOptional(new ResourceLocation("forge", "ores/zinc")))
                 .add(OCItems.RAW_ZINC.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ores/aluminum")))
+                .add(OCItems.RAW_ALUMINUM.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ores/chromium")))
+                .add(OCItems.RAW_CHROMIUM.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ores/cobalt")))
+                .add(OCItems.RAW_COBALT.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ores/platinum")))
+                .add(OCItems.RAW_PLATINUM.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ores/thorium")))
+                .add(OCItems.RAW_THORIUM.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ores/titanium")))
+                .add(OCItems.RAW_TITANIUM.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ores/tungsten")))
+                .add(OCItems.RAW_TUNGSTEN.get());
 
         tag(ItemTags.createOptional(new ResourceLocation("forge", "ingots/copper")))
                 .add(OCItems.COPPER_INGOT.get());
@@ -78,5 +106,19 @@ public class OCItemTagsProvider extends ItemTagsProvider {
                 .add(OCItems.URANIUM_INGOT.get());
         tag(ItemTags.createOptional(new ResourceLocation("forge", "ingots/zinc")))
                 .add(OCItems.ZINC_INGOT.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ingots/aluminum")))
+                .add(OCItems.ALUMINUM_INGOT.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ingots/chromium")))
+                .add(OCItems.CHROMIUM_INGOT.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ingots/cobalt")))
+                .add(OCItems.COBALT_INGOT.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ingots/platinum")))
+                .add(OCItems.PLATINUM_INGOT.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ingots/thorium")))
+                .add(OCItems.THORIUM_INGOT.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ingots/titanium")))
+                .add(OCItems.TITANIUM_INGOT.get());
+        tag(ItemTags.createOptional(new ResourceLocation("forge", "ingots/tungsten")))
+                .add(OCItems.TUNGSTEN_INGOT.get());
     }
 }

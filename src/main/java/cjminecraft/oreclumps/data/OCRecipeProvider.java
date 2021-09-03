@@ -29,6 +29,13 @@ public class OCRecipeProvider extends RecipeProvider {
         rawOreRecipes(consumer, OCItems.RAW_TIN, OCBlocks.RAW_TIN_BLOCK_ITEM, OCItems.TIN_INGOT, "tin");
         rawOreRecipes(consumer, OCItems.RAW_URANIUM, OCBlocks.RAW_URANIUM_BLOCK_ITEM, OCItems.URANIUM_INGOT, "uranium");
         rawOreRecipes(consumer, OCItems.RAW_ZINC, OCBlocks.RAW_ZINC_BLOCK_ITEM, OCItems.ZINC_INGOT, "zinc");
+        rawOreRecipes(consumer, OCItems.RAW_ALUMINUM, OCBlocks.RAW_ALUMINUM_BLOCK_ITEM, OCItems.ALUMINUM_INGOT, "aluminum");
+        rawOreRecipes(consumer, OCItems.RAW_CHROMIUM, OCBlocks.RAW_CHROMIUM_BLOCK_ITEM, OCItems.CHROMIUM_INGOT, "chromium");
+        rawOreRecipes(consumer, OCItems.RAW_COBALT, OCBlocks.RAW_COBALT_BLOCK_ITEM, OCItems.COBALT_INGOT, "cobalt");
+        rawOreRecipes(consumer, OCItems.RAW_PLATINUM, OCBlocks.RAW_PLATINUM_BLOCK_ITEM, OCItems.PLATINUM_INGOT, "platinum");
+        rawOreRecipes(consumer, OCItems.RAW_THORIUM, OCBlocks.RAW_THORIUM_BLOCK_ITEM, OCItems.THORIUM_INGOT, "thorium");
+        rawOreRecipes(consumer, OCItems.RAW_TITANIUM, OCBlocks.RAW_TITANIUM_BLOCK_ITEM, OCItems.TITANIUM_INGOT, "titanium");
+        rawOreRecipes(consumer, OCItems.RAW_TUNGSTEN, OCBlocks.RAW_TUNGSTEN_BLOCK_ITEM, OCItems.TUNGSTEN_INGOT, "tungsten");
     }
 
     private static void rawOreRecipes(Consumer<IFinishedRecipe> consumer, RegistryObject<Item> raw, RegistryObject<Item> rawBlock, Item ingot, float xp, String name) {

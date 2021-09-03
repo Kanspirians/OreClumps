@@ -40,7 +40,7 @@ public class OreClumps {
         if (event.includeClient()) {
             generator.addProvider(new OCBlockStateProvider(generator, existingFileHelper));
             generator.addProvider(new OCItemModelProvider(generator, existingFileHelper));
-            Lists.newArrayList("en_us").forEach(l -> event.getGenerator().addProvider(new OCLanguageProvider(generator, l)));
+            Lists.newArrayList("en_us", "en_gb").forEach(l -> event.getGenerator().addProvider(new OCLanguageProvider(generator, l)));
         }
         if (event.includeServer()) {
             generator.addProvider(new OCGlobalLootModifierProvider(generator));
